@@ -1,0 +1,14 @@
+prefix=/Users/Xana/Dev/Android/Projects/FFmpegUtils/libs
+exec_prefix=${prefix}
+libdir=/Users/Xana/Dev/Android/Projects/FFmpegUtils/libs/lib
+includedir=/Users/Xana/Dev/Android/Projects/FFmpegUtils/libs/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 55.78.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -lm
+Cflags: -I${includedir}
